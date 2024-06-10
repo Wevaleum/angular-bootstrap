@@ -1,6 +1,10 @@
 # AngularBootstrap
 
-A bootstrap repository for quickly starting an Angular project
+A bootstrap repository for quickly starting an Angular project.
+
+## Version
+
+The project is currently under the version 18.0.2 of angular
 
 ## Local server
 
