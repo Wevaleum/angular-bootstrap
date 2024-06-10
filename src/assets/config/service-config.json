@@ -1,4 +1,4 @@
 {
   "restBaseUrl": "<SERVER_URL>",
-  "users": "users"
+  "usersUrl": "users"
 }

@@ -1,4 +1,4 @@
 {
   "restBaseUrl": "http://localhost:3000",
-  "users": "users"
+  "usersUrl": "users"
 }

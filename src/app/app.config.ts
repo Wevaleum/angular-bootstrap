@@ -5,7 +5,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { routes } from './app.routes';
 import { HttpClient, provideHttpClient } from '@angular/common/http';
-import { loadServiceConfigFile } from './core/service/server-config.service';
+import { ServerConfig, loadServiceConfigFile } from './core/service/server-config';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -24,7 +24,7 @@ export const appConfig: ApplicationConfig = {
       provide: APP_INITIALIZER,
       useFactory: loadServiceConfigFile,
       multi: true,
-      deps: [HttpClient],
+      deps: [ServerConfig],
     }
   ]
 };
