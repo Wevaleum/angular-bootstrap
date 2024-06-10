@@ -2,13 +2,13 @@
     "users": [
         {
             "id": 1,
-            "firstName": "user-1 fist name",
-            "lastName": "user-1 last name"
+            "firstname": "user-1 fist name",
+            "lastname": "user-1 last name"
         },
         {
             "id": 2,
-            "firstName": "user-2 fist name",
-            "lastName": "user-2 last name"
+            "firstname": "user-2 fist name",
+            "lastname": "user-2 last name"
         }
     ]
 }
