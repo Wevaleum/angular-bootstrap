@@ -1,6 +1,11 @@
 # AngularBootstrap
 
-A bootstrap repository for quickly starting an Angular project.
+A bootstrap repository for quickly starting an Angular project. this Include the following elements
+
+* Angular project structured accourding to the best practices
+* Local Json server to run locally
+* Production configuration for building a dist folder
+* An ios/Android Capacitor generated projects
 
 ## Version
 
@@ -24,6 +29,8 @@ $ node server.js
 ```
 
 ## Development server
+
+Install dependencies with `ng install`
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
