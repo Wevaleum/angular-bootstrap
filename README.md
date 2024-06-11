@@ -2,6 +2,24 @@
 
 A bootstrap repository for quickly starting an Angular project.
 
+## Capacitor for Android and ios
+
+Change the app_name for ios (Info.plist) and android (strings.xml) by your own application name
+
+```
+# value to change
+angular-bootstrap
+```
+
+Put your own bundle name in the project (capacitor.config.ts, build.gradle, MainActivity, strings.xml and project.pbxproj)
+
+```
+# value to change
+com.example.app
+```
+
+
+
 ## Version
 
 The project is currently under the version 18.0.2 of angular

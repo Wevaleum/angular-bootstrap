@@ -4,7 +4,7 @@ import { ServerConfig } from './server-config';
 import { ServerConfigKeys } from '../models/server-config-model';
 import { User } from '../models/user-model';
 import { Observable } from 'rxjs';
-import { Page } from '../models/Page';
+import { Page } from '../models/page';
 
 @Injectable({
   providedIn: 'root'
