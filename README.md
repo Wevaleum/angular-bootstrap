@@ -2,10 +2,10 @@
 
 A bootstrap repository for quickly starting an Angular project. this Include the following elements
 
-* Angular project structured accourding to the best practices
-* Local Json server to run locally
-* Production configuration for building a dist folder
-* An ios/Android Capacitor generated projects
+- Angular project structured accourding to the best practices
+- Local Json server to run locally
+- Production configuration for building a dist folder
+- An ios/Android Capacitor generated projects
 
 ## Version
 
@@ -18,7 +18,7 @@ Use local server to mock backend service responses
 ### Install local json-server
 
 ```
-$ npm install json-server@0.17.4 --save-dev
+$ npm install json-server --save-dev
 ```
 
 ### Launch local json-server
